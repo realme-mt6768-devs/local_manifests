@@ -3,6 +3,9 @@
     <remote  name="sepolicy"
                  fetch="https://github.com/realme-mt6785-devs"
                  clone-depth="1" />
+    <remote name="proton-clang"
+                fetch="https://github.com/kdrag0n"
+                clone-depth="1" />
 
     <remote name="dt"
                 fetch="https://github.com/realme-mt6768-devs"
@@ -22,5 +25,6 @@
    <!-- COMMON HARDWARE MEDIATEK -->
    <project path="hardware/mediatek" name="android_hardware_mediatek" remote="Lineage" revision="lineage-20" />
    <project path="hardware/oplus" name="android_hardware_oplus" remote="Lineage" revision="lineage-20" /> 
-
+   <project path="prebuilt/clang/proton" name="proton-clang" remote="proton-clang" revision="master" />
+     
 </manifest>
