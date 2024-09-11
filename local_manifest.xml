@@ -15,5 +15,6 @@
   <project path="kernel/realme/even" name="kernel_realme_even" remote="dt" revision="non-vdso" />
    <!--Vendor -->
    <project path="vendor/realme/even" name="vendor_realme_even" remote="dt" revision="thirteen" />
-  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="sepolicy" revision="lineage-20" />
+   <!-- Sepolicy_Vndr --> 
+   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="sepolicy" revision="lineage-20" />
 </manifest>
