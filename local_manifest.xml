@@ -7,7 +7,9 @@
     <remote name="dt"
                 fetch="https://github.com/realme-mt6768-devs"
                 clone-depth="1" />         
-
+    <remote name="Lineage"
+                fetch="https://github.com/LineageOS"
+                clone-depth="1" />
 
     <!--Tree -->
    <project path="device/realme/even" name="device_realme_even" remote="dt" revision="main" />
@@ -17,4 +19,6 @@
    <project path="vendor/realme/even" name="vendor_realme_even" remote="dt" revision="thirteen" />
    <!-- Sepolicy_Vndr --> 
    <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="sepolicy" revision="lineage-20" />
+   <!-- COMMON HARDWARE MEDIATEK -->
+      <project path="hardware/mediatek" name="android_hardware_mediatek" remote="Lineage" revision="lineage-20" />
 </manifest>
