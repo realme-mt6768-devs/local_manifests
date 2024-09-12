@@ -25,6 +25,6 @@
    <!-- COMMON HARDWARE MEDIATEK -->
    <project path="hardware/mediatek" name="android_hardware_mediatek" remote="Lineage" revision="lineage-20" />
    <project path="hardware/oplus" name="android_hardware_oplus" remote="Lineage" revision="lineage-20" /> 
-   <project path="prebuilt/clang/proton" name="proton-clang" remote="proton-clang" revision="master" />
+   <project path="prebuilt/clang/proton" name="clang-r450784d" remote="dt" revision="master" />
      
 </manifest>
