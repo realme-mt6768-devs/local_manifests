@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <remote  name="sepolicy"
-                 fetch="https://github.com/realme-mt6781-dev"
+                 fetch="https://github.com/LineageOS"
                  clone-depth="1" />
     <remote name="proton-clang"
                 fetch="https://github.com/kdrag0n"
