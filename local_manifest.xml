@@ -18,6 +18,8 @@
    <project path="device/realme/even" name="device_realme_even" remote="dt" revision="lineage-21" />
    <!--Kernel -->
   <project path="device/realme/even-kernel" name="device_realme_even-kernel" remote="dt" revision="lineage-21" />
+  <project path="kernel/realme/even" name="kernel_realme_even" remote="dt" revision="deprecated/android-4.14-stable" />
+    
    <!--Vendor -->
    <project path="vendor/realme/even" name="vendor_realme_even" remote="dt" revision="thirteen" />
    <!-- Sepolicy_Vndr --> 
