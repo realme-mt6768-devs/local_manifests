@@ -7,6 +7,10 @@
                 fetch="https://github.com/kdrag0n"
                 clone-depth="1" />
 
+     <remote name="rxy"
+                fetch="https://github.com/cumaRull"
+                clone-depth="1" />
+
     <remote name="dt"
                 fetch="https://github.com/realme-mt6768-devs"
                 clone-depth="1" />         
@@ -15,7 +19,7 @@
                 clone-depth="1" />
 
     <!--Tree -->
-   <project path="device/realme/even" name="device_realme_even" remote="dt" revision="lineage-21" />
+   <project path="device/realme/even" name="device_realme_even" remote="rxy" revision="lineage-21" />
    <!--Kernel -->
   <project path="device/realme/even-kernel" name="device_realme_even-kernel" remote="dt" revision="lineage-21" />
   <project path="kernel/realme/even" name="kernel_realme_even" remote="dt" revision="deprecated/android-4.14-stable" />
@@ -23,7 +27,7 @@
    <!--Vendor -->
    <project path="vendor/realme/even" name="vendor_realme_even" remote="dt" revision="thirteen" />
    <!-- Sepolicy_Vndr --> 
-  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="sepolicy" revision="lineage-20" />
+
    <!-- COMMON HARDWARE MEDIATEK -->
    <project path="hardware/mediatek" name="android_hardware_mediatek" remote="Lineage" revision="lineage-20" />
    <project path="hardware/oplus" name="android_hardware_oplus" remote="Lineage" revision="lineage-20" /> 
