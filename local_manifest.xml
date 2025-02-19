@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote name="github"
+    <remote name="gh"
                 fetch="https://github.com/"
                 clone-depth="1" />
 
    <!--Tree -->
-   <project path="device/realme/even" name="realme-mt6768-devs/android_device_realme_even" remote="github" revision="main" />
-   <project path="vendor/realme/even" name="realme-mt6768-devs/proprietary_vendor_realme_even" remote="github" revision="thirteen" />
-   <project path="hardware/mediatek" name="LineageOS/android_hardware_mediatek" remote="github" revision="lineage-20" />
-   <project path="hardware/oplus" name="LineageOS/android_hardware_oplus" remote="github" revision="lineage-20" />
-   <project path="device/mediatek/sepolicy_vndr" name="LineageOS/android_device_mediatek_sepolicy_vndr" remote="github" revision="lineage-20" />
+   <project path="device/realme/even" name="realme-mt6768-devs/android_device_realme_even" remote="gh" revision="main" />
+   <project path="vendor/realme/even" name="realme-mt6768-devs/proprietary_vendor_realme_even" remote="gh" revision="thirteen" />
+   <project path="hardware/mediatek" name="LineageOS/android_hardware_mediatek" remote="gh" revision="lineage-20" />
+   <project path="hardware/oplus" name="LineageOS/android_hardware_oplus" remote="gh" revision="lineage-20" />
+   <project path="device/mediatek/sepolicy_vndr" name="LineageOS/android_device_mediatek_sepolicy_vndr" remote="gh" revision="lineage-20" />
    </manifest>
