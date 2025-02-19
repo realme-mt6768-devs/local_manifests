@@ -9,14 +9,19 @@
 
     <remote name="dt"
                 fetch="https://github.com/realme-mt6768-devs"
-                clone-depth="1" />         
-    <remote name="Lineage"
-                fetch="https://github.com/LineageOS"
+                clone-depth="1" />
+
+    <remote name="github"
+                fetch="https://github.com/"
                 clone-depth="1" />
 
    <!--Tree -->
-   <project path="device/realme/RMX3191" name="android_device_realme_RMX3191" remote="dt" revision="master" />
+   <project path="device/realme/even" name="android_device_realme_even" remote="github" revision="main" />
    <!--Vendor -->
-   <project path="vendor/realme/RMX3191" name="proprietary_vendor_realme_RMX3191" remote="dt" revision="master" />
+   <project path="vendor/realme/even" name="proprietary_vendor_realme_even" remote="github" revision="thirteen" />
+   <project path="hardware/mediatek" name="LineageOS/android_hardware_mediatek" remote="github" revision="lineage-20" />
+   <project path="hardware/oplus" name="LineageOS/android_hardware_oplus" remote="github" revision="lineage-20" />
+   <project path="device/mediatek/sepolicy_vndr" name="LineageOS/android_device_mediatek_sepolicy_vndr" remote="github" revision="lineage-20" />
    
+    
 </manifest>
